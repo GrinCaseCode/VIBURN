@@ -653,6 +653,9 @@
 .menu-mobile .phone-main {
     margin-bottom: 5px;
 }
+.col_contacts {
+    display: none;
+}
 }
 
 /* Small Devices, Tablets */
@@ -793,6 +796,12 @@
 .row_leads > div {
     padding: 0 5px;
 }
+.consultation-block .block-form {
+    margin-top: 15px;
+}
+.consultation-block .list-page > li {
+    margin-bottom: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -830,7 +839,10 @@
         line-height: 25px;
     }
     .consultation-block .title-section {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    .consultation-block__left .title-middle {
+        padding-bottom: 15px;
     }
     .benefits .title-section {
         padding-bottom: 22px;
