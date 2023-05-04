@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PF Beau Sans Pro';
+    src: local('PF Beau Sans Pro Regular'), local('PF-Beau-Sans-Pro-Regular'),
+        url('PFBeauSansPro-Regular.woff2') format('woff2'),
+        url('PFBeauSansPro-Regular.woff') format('woff'),
+        url('PFBeauSansPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
