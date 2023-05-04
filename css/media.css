@@ -913,6 +913,9 @@
     .automation-components {
         padding-bottom: 30px;
     }
+    .billbord .title-big br {
+        display: none;
+    }
 }
 
 /* Custom, iPhone Retina */
