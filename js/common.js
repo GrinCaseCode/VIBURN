@@ -166,7 +166,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
 		$(this).parent().addClass('active');
-		$(this).parents().find(".tab-pane").fadeOut(0);
+		$(this).parent().parent().parent().parent().find(".tab-pane").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
 
