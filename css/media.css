@@ -928,6 +928,9 @@
     .billbord .title-big br {
         display: none;
     }
+    .benefits-block__top {
+    font-size: 15px; 
+}
 }
 
 /* Custom, iPhone Retina */
