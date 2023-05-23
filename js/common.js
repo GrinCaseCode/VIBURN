@@ -32,6 +32,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	});
 
+
+$(".btn-main_filter").click(function(e) {
+	e.preventDefault();
+		$(".sidebar-catalog").slideToggle(200);
+	});
+
 	//слайдер
 
 	$('.slider-portfolio').slick({
