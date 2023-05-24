@@ -1908,7 +1908,7 @@ box-shadow: 0px 6px 12px rgba(7, 71, 87, 0.1);
 	min-height: 100%;
 	transition: all 0.3s;
 }
-.item-service:hoveR {
+.item-service:hover {
 	box-shadow: 0px 6px 12px rgba(7, 71, 87, 0.3);	
 }
 .item-service__head {
@@ -1938,4 +1938,4 @@ box-shadow: 0px 6px 12px rgba(7, 71, 87, 0.1);
 }
 .item-service__text {
 	display: block;
-}
+} 
